@@ -22,8 +22,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: "mrrfv/cloudflare-gateway-pihole-scripts"
-          ref: "v1"
+#          repository: "mrrfv/cloudflare-gateway-pihole-scripts"
+#          ref: "v1"
+          repository: "bsyk/cloudflare-gateway-pihole-scripts"
+          ref: "update-lists"
 
       - name: Install Node.js
         uses: actions/setup-node@v4
